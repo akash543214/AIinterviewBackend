@@ -25,6 +25,7 @@ It exposes APIs for:
 
 GOOGLE_APPLICATION_CREDENTIALS=""
 GCP_PROJECT_ID=""
+DATABASE_URL="
 
 Download service token json from GPC seperately and load from resources
 
