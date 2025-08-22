@@ -21,6 +21,13 @@ It exposes APIs for:
 
 ---
 
+## env
+
+GOOGLE_APPLICATION_CREDENTIALS=""
+GCP_PROJECT_ID=""
+
+Download service token json from GPC seperately and load from resources
+
 ## Setup
 
 ### 1. Clone & Install
