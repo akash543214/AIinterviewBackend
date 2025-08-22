@@ -4,7 +4,7 @@ import helmet from 'helmet';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import './lib/prisma'; 
-import userRouter from './routes/users.routes';
+import aiRouter from './routes/ai.routes';
 
 import ApiError from './utils/apiError';
 
@@ -27,7 +27,7 @@ app.use(cookieParser());
 
 
 // Routes
-app.use("/api", userRouter);
+app.use("/api", aiRouter);
 // 404 handler
 app.use((req, _, next) => {
   next(new ApiError(`Can't find ${req.originalUrl} on this server!`, 404));

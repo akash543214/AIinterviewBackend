@@ -16,7 +16,8 @@ bower_components/
 jspm_packages/
 
 
-
+resources/speech-key.json
+resources/vertex.json
 
 # Prisma (do NOT ignore generated client!)
 # ❌ Do not add: /src/generated/prisma
